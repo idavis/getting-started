@@ -32,6 +32,8 @@ function(create_target TARGET STARTUP LINKER)
         netx_driver
         app_common
         jsmn
+
+        oxidation
     )
 
     target_link_options(${TARGET}
