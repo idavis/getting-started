@@ -35,7 +35,7 @@
     .global     _tx_initialize_unused_memory
     .global     __RAM_segment_used_end__
     .global     _tx_timer_interrupt
-    .global     __main
+    .global     __rust_main
     .global     __tx_SVCallHandler
     .global     __tx_PendSVHandler
     .global     _vectors

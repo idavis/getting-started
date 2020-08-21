@@ -1,0 +1,14 @@
+[package]
+name = "oxidation"
+version = "0.1.0"
+authors = ["Ian Davis <ian.f.davis@microsoft.com>"]
+edition = "2018"
+
+
+[dependencies]
+cortex-m-rt="0.6.12"
+panic-halt="0.2.0"
+panic-semihosting="0.5.3"
+
+[lib]
+crate-type = ["staticlib"]

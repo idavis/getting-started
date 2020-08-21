@@ -31,6 +31,8 @@ target_link_libraries(${PROJECT_NAME}
     wiced_sdk
     app_common
     jsmn
+
+    oxidation
 )
 
 target_link_options(${PROJECT_NAME}

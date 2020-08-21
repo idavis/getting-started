@@ -80,5 +80,5 @@ RUN apt-get update \
 # the nightly toolchain for this image
 
 RUN rustup override set nightly \
-    && rustup target add thumbv7em-none-eabihf
+    && rustup target add thumbv7em-none-eabihf \
     && rustup component add rust-src

@@ -19,4 +19,5 @@ include(utilities)
 message(STATUS "Using toolchain file: ${CMAKE_TOOLCHAIN_FILE}")
 
 add_subdirectory(lib)
+add_subdirectory(oxidation)
 add_subdirectory(app)

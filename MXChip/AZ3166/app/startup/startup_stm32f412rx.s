@@ -98,7 +98,7 @@ LoopFillZerobss:
   
   CPSIE   i
 /* Call the application's entry point.*/
-  bl  main
+  bl  rust_main
   bx  lr    
 .size  Reset_Handler, .-Reset_Handler
 

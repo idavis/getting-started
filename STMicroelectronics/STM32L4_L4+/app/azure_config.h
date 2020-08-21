@@ -15,8 +15,8 @@ typedef enum
 // ----------------------------------------------------------------------------
 // WiFi connection information
 // ----------------------------------------------------------------------------
-#define WIFI_SSID           ""
-#define WIFI_PASSWORD       ""
+#define WIFI_SSID           "Other_5G"
+#define WIFI_PASSWORD       "temptemp"
 #define WIFI_MODE           WPA2_PSK_AES
 
 // ----------------------------------------------------------------------------
@@ -28,9 +28,9 @@ typedef enum
 // ----------------------------------------------------------------------------
 // Azure IoT Device information
 // ----------------------------------------------------------------------------
-#define IOT_HUB_HOSTNAME    ""
-#define IOT_DEVICE_ID       ""
-#define IOT_PRIMARY_KEY     ""
+#define IOT_HUB_HOSTNAME    "zentrum.azure-devices.net"
+#define IOT_DEVICE_ID       "MySTMDevice"
+#define IOT_PRIMARY_KEY     "1Vb4qjL037IaUZfFHpF2qczBPiEdFEPnqtl80TD/E6o="
 
 #endif // _AZURE_CONFIG_H
 
